@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/role/001-Fighter01.png</file>
+    </qresource>
+</RCC>

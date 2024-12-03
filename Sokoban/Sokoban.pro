@@ -11,11 +11,13 @@ CONFIG += c++11
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    platformdialog.cpp
+    platformdialog.cpp \
+    widgetbase.cpp
 
 HEADERS += \
     mainwindow.h \
-    platformdialog.h
+    platformdialog.h \
+    widgetbase.h
 
 FORMS += \
     mainwindow.ui \
@@ -25,3 +27,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    res.qrc
